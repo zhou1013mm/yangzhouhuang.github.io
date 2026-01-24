@@ -6,21 +6,21 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 theme                    : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes"
+title                    : "Yangzhou Huang's Site"
 title_separator          : "-"
-subtitle                 : "Development Test Site"
-name                     : "Your Name"
-description              : "Minimal Mistakes theme test."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle                 : "Publication portfolio and Blog"
+name                     : "Yangzhou Huang"
+description              : "Yangzhou Huang's blog site forked from minimal-mistakes theme."
+url                      : "https://github.com/zhou1013mm/yangzhouhuang.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/test"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "zhou1013mm/yangzhouhuang.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/apple-touch-icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Custom Title" # overrides the website title displayed in the masthead, use " " for no title
+logo                     : "/assets/images/photoshowcase/Z-icon.webp" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "Yangzhou's Site" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -35,7 +35,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
@@ -72,7 +72,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/bio-photo.jpg"
+og_image                 : "/assets/images/bio-photo.webp"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -91,38 +91,38 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Yangzhou Huang"
+  avatar           : "/assets/images/photoshowcase/profile.webp"
+  bio              : "Currently, I am an undergraduate student at Nanjing University, majoring in Physical Acoustics. I'm doing research on Embodied Intelligence at [MCG group](https://mcg.nju.edu.cn/index.html)."
+  location         : "Nanjing, China"
   links:
-    - label: "Your Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://your-site.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Bilibili"
+      icon: "fas fa-fw fa-bilibili" # to be editted in the css file
+      url: "https://space.bilibili.com/518629111?spm_id_from=333.1007.0.0"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/zhou1013mm"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/yangzhou.huang"
+    - label: "Lego Ideas"
+      icon: "fab fa-fw fa-lego-ideas" # to be editted in the css file
+      url: "https://beta.ideas.lego.com/profile/04e9b488-dc57-4eee-925a-a92b4a9ee86d"
 
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/zhou1013mm"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-  since: "2013"
+      url: "https://instagram.com/yangzhou.huang"
+    - label: "Lego Ideas"
+      icon: "fab fa-fw fa-lego-ideas" # to be editted in the css file
+      url: "https://beta.ideas.lego.com/profile/04e9b488-dc57-4eee-925a-a92b4a9ee86d"
+  since: "2026"
 
 
 # Reading Files
