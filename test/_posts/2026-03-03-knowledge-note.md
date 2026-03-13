@@ -33,8 +33,6 @@ the common seen code of the formula :
 noise_pred = noise_pred_uncond + guidance_scale * (noise_pred_text - noise_pred_uncond)
 ```
 
-
-
 ## 3. UNet : for noise prediction
 
 

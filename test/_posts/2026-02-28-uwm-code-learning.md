@@ -10,6 +10,7 @@ categories:
 tags: 
   - Model Architecture
   - Python
+  - Note
 ---
 
 # Torch
@@ -278,11 +279,15 @@ train.py
 sample_ddp.py
 19:from diffusers.models import AutoencoderKL
 79:    vae = AutoencoderKL.from_pretrained(f"stabilityai/sd-vae-ft-{args.vae}").to(device)
-
-sample.py
-15:from diffusers.models import AutoencoderKL
-44:    vae = AutoencoderKL.from_pretrained(f"stabilityai/sd-vae-ft-{args.vae}").to(device)
 ```
+
+更高级应用： 在当前路径下的子路径中搜索
+
+```bash
+rg -t 'txt' "avg_success_rate" ./sub/path
+```
+
+
 
 ## Basic Usage of `ffmpeg` command
 
