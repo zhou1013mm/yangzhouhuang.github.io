@@ -33,6 +33,14 @@ ssh -N -R 1080:127.0.0.1:7897 \
     server11
 ```
 
+在 server11 上：
+
+```bash
+export ALL_PROXY=socks5h://127.0.0.1:1080
+export HTTP_PROXY=$ALL_PROXY
+export HTTPS_PROXY=$ALL_PROXY
+```
+
 检查：看输出结果是否包含`ServerAliveInterval=60` 等
 
 ```bash

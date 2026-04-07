@@ -336,6 +336,21 @@ git checkout
 ls -lh
 ```
 
+通过`ssh` 登陆 github：
+
+```bash
+# 看有没有公钥，名字如 xxx.pub ，若没有则去生成 
+ls -al ~/.ssh 
+
+# 把公钥内容打印出来，复制粘贴到 github 上自己新创建的 ssh key（authentication类型）里
+cat ~/.ssh/hyz_rsa.pub
+
+# 最后用 ssh 命令登录 bash 到 github
+(base) huangyangzhou@huangyangzhou-MRGFG-XX:~/github/yangzhouhuang.github.io$ ssh -T git@github.com
+Hi zhou1013mm! You've successfully authenticated, but GitHub does not provide shell access.
+
+```
+
 
 
 ## Basic Usage of `wandb` command & python code
