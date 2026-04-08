@@ -18,7 +18,7 @@ Baldur's Gate was one of my selections planned to play in 2026, but I have excee
 
 The conclusion is : BG2 Shadow of Annm is way better than BG1 in respect to plot and characters shaping. I was so imersed that I finished Shadow of Annm and Throne of Bhaal in a Friday & a weekend, 40 hours counted.
 
-So here I want to share some feelings and comments of my hasty play.
+Here are feelings and comments of my hasty play.
 
 Photography of the play :
 

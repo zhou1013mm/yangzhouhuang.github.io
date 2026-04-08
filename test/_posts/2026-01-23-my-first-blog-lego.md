@@ -12,6 +12,9 @@ tags:
   - LEGO IDEAS
   - test
 ---
+<div style="display:flex;align-items:center;">
+  <img src=https://play-lh.googleusercontent.com/3ysxd7DbiXcWFEmSYAASw7lBUmxv0HKQI591qLBWErue9U0cQs67qyfa_5eElpVVqWVp=w1024 width=800>
+</div>
 
 Here is my first blog. I build this site forked from a [Jekyll](https://jekyllrb.com/) based theme [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/). I want my blog site to display some of publications and works of interests, photography, LEGO, game reviews for exapmle.
 
