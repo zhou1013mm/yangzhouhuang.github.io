@@ -141,6 +141,7 @@ For the reasons above, during phone call , your phone or computer would change t
 
 #### alsa & PulseAudio command
 > pactl means pulseaudio control
+
 ```bash
 # 查看所有录音设备（麦克风）
 pactl list sources short
@@ -168,8 +169,10 @@ sudo dmesg | grep -i "snd\|sof\|hda"
 # 查看已加载的音频模块
 lsmod | grep snd
 ```
+
 #### ubuntu system command
 > dmesg means diagnostic message
+
 ```bash
 # 内核日志（查看驱动加载/硬件检测）
 sudo dmesg | grep -i "snd\|sof\|hda\|audio"

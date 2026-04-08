@@ -1,6 +1,6 @@
 ---
-title: "Impressive Three-Kingdoms Games To-Play List"
-excerpt: "Some great Three-Kingdoms games attract me" # This line is the brief content of the post
+title: "COMSOL Room Acoustics Basics"
+excerpt: "Basic Comsol Usage on Room Acoustics" # This line is the brief content of the post
 header:
   teaser: ""
   overlay_image: 
