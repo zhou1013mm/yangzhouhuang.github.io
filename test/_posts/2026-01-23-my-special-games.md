@@ -2,9 +2,9 @@
 title: "Some Games That Impressed Me"
 excerpt: "Display and introduce my 2 design on LEGO IDEAS" # This line is the brief content of the post
 header:
-  teaser: "/assets/images/blog2/KR5.webp"
-  overlay_image: /assets/images/blog2/MA2.webp
-  og_image: /assets/images/blog2/SB2.webp
+  teaser: "/assets/images/my-special-games/KR5.webp"
+  overlay_image: /assets/images/my-special-games/MA2.webp
+  og_image: /assets/images/my-special-games/SB2.webp
 categories:
   - Game
 tags: 
@@ -20,8 +20,8 @@ So here are some games that impressed me a lot. This means maybe they're not the
 ### Chrono Trigger
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/CT1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/CT4.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/CT1.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/CT4.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Disco Elysium

@@ -31,3 +31,22 @@ tags:
 ## 后话
 
 光荣公司的《三国志：曹操传》的画面太戳我了，感觉是《火纹：封印之剑》战斗系统作为基础加上美术升级，同时因为有剧情线给我一种很强的rpg味道，期待！ 话说《三国志：5》的复古画风也是！
+
+## 自我补充
+
+运行bottles：windows容器管理ui
+
+```bash
+flatpak run com.usebottles.bottles
+```
+
+运行linux dos
+
+```bash
+# 安装 DOSBox
+sudo apt install dosbox
+
+# 运行（不需要 Wine/Bottles）
+dosbox /path/to/your/game.exe
+```
+

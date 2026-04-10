@@ -2,9 +2,9 @@
 title: "My First Blog: About My LEGO Design"
 excerpt: "Display and introduce my 2 design on LEGO IDEAS"
 header:
-  teaser: "/assets/images/blog1/ChineseGardenSmallVersion2_5.webp"
-  overlay_image: /assets/images/blog1/ChineseGardenSmallVersion2_20.webp
-  og_image: /assets/images/blog1/ChineseGardenSmallVersion2_20.webp
+  teaser: "/assets/images/my-first-blog-lego/ChineseGardenSmallVersion2_5.webp"
+  overlay_image: /assets/images/my-first-blog-lego/ChineseGardenSmallVersion2_20.webp
+  og_image: /assets/images/my-first-blog-lego/ChineseGardenSmallVersion2_20.webp
 categories:
   - LEGO
 tags: 
@@ -12,9 +12,6 @@ tags:
   - LEGO IDEAS
   - test
 ---
-<div style="display:flex;align-items:center;">
-  <img src=https://play-lh.googleusercontent.com/3ysxd7DbiXcWFEmSYAASw7lBUmxv0HKQI591qLBWErue9U0cQs67qyfa_5eElpVVqWVp=w1024 width=800>
-</div>
 
 Here is my first blog. I build this site forked from a [Jekyll](https://jekyllrb.com/) based theme [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/). I want my blog site to display some of publications and works of interests, photography, LEGO, game reviews for exapmle.
 
@@ -22,7 +19,7 @@ To date I'm writing this, I've designed 2 LEGO and posted on [LEGO IDEAS](https:
 
 
 <figure style="width: 150px" class="align-left">
-  <img src="{{ '/assets/images/blog1/Robo_whole_v8_n.webp' | relative_url }}" >
+  <img src="{{ '/assets/images/my-first-blog-lego/Robo_whole_v8_n.webp' | relative_url }}" >
   <figcaption>Chrono Trigger Robo</figcaption>
 </figure> 
 
@@ -33,7 +30,7 @@ My first work is inspired by a [JRPG](https://en.wikipedia.org/wiki/History_of_E
   <img src="{{ '/assets/images/blog1/CTrobo.webp' | relative_url }}" style="width:25%;height:auto;">
   <img src="{{ '/assets/images/blog1/Robo_whole_v8_n.webp' | relative_url }}" style="width:65%;height:auto;">
 </div>
- 
+
 Another work following this is my [Chinese Garden](https://beta.ideas.lego.com/product-ideas/c09e02be-c442-47e2-bd42-7eca541eb08b) which is a set inspired by Suzhou Yuanlin.
 
 <div style="display:flex;align-items:center;">

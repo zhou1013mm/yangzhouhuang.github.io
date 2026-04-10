@@ -21,3 +21,21 @@ This is actually the first time I used COMSOL to support Physics work. I met bug
 ## See bug logs in details
 
 ## Parametric Scan
+
+
+
+
+
+
+
+Room EigenFrequency & SPL with corner point source
+
+
+
+computes the SPL of a room with 1.9m \times 1.5m \times 1.1m size and a point source at (0.1m, 0.1m, 0.1m) near a node point of the room.
+
+The absorption coefficient is \apha_n = 0.2 for all walls.
+
+
+
+Yangzhou Huang, 231840287
