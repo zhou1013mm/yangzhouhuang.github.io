@@ -27,104 +27,104 @@ So here are some games that impressed me a lot. This means maybe they're not the
 ### Disco Elysium
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/DE1.webp' | relative_url }}" style="width:40%;height:auto;">
-  <img src="{{ '/assets/images/blog2/DE2.webp' | relative_url }}" style="width:60%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/DE1.webp' | relative_url }}" style="width:40%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/DE2.webp' | relative_url }}" style="width:60%;height:auto;">
 </div>
 
 Blank line
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/DE4.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/DE6.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/DE4.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/DE6.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Kentucky Route Zero
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/KR5.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/KR2.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/KR5.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/KR2.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 Blank line
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/KR1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/KR3.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/KR1.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/KR3.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Witcher III: Wild Hunt
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/WIII2.webp' | relative_url }}" style="width:60%;height:auto;">
-  <img src="{{ '/assets/images/blog2/WIII11.webp' | relative_url }}" style="width:40%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/WIII2.webp' | relative_url }}" style="width:60%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/WIII11.webp' | relative_url }}" style="width:40%;height:auto;">
 </div>
 
 Blank line
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/WIII10.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/WIII13.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/WIII10.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/WIII13.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Fallout 4
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/FIV1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/FIV3.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/FIV1.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/FIV3.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Sekiro: Shadow Die Twice
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/SK1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/SK2.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/SK1.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/SK2.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Dark Soul
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/DS3.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/DS10.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/DS3.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/DS10.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 Blank line
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/DS6.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/DS2.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/DS6.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/DS2.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Silent Hill(1999)
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/SHI3.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/SHI4.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/SHI3.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/SHI4.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Dragon Quest XIS
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/DQXIS1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/DQXIS2.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/DQXIS1.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/DQXIS2.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Machinarium
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/MA1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/MA3.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/MA1.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/MA3.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Fire Emblem: Binding Blade
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/FEB1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/FEB3.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/FEB1.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/FEB3.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>
 
 ### Sable
 
 <div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/blog2/SB1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/blog2/SB4.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/SB1.webp' | relative_url }}" style="width:50%;height:auto;">
+  <img src="{{ '/assets/images/my-special-games/SB4.webp' | relative_url }}" style="width:50%;height:auto;">
 </div>

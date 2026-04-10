@@ -27,16 +27,16 @@ My first work is inspired by a [JRPG](https://en.wikipedia.org/wiki/History_of_E
 
 [Robo Prometheus](https://beta.ideas.lego.com/product-ideas/204a285e-836b-4aaf-8a81-8c6b75f0d489)
 <div style="display:flex;align-items:center;">
-  <img src="{{ '/assets/images/blog1/CTrobo.webp' | relative_url }}" style="width:25%;height:auto;">
-  <img src="{{ '/assets/images/blog1/Robo_whole_v8_n.webp' | relative_url }}" style="width:65%;height:auto;">
+  <img src="{{ '/assets/images/my-first-blog-lego/CTrobo.webp' | relative_url }}" style="width:25%;height:auto;">
+  <img src="{{ '/assets/images/my-first-blog-lego/Robo_whole_v8_n.webp' | relative_url }}" style="width:65%;height:auto;">
 </div>
 
 Another work following this is my [Chinese Garden](https://beta.ideas.lego.com/product-ideas/c09e02be-c442-47e2-bd42-7eca541eb08b) which is a set inspired by Suzhou Yuanlin.
 
 <div style="display:flex;align-items:center;">
-  <img src="{{ '/assets/images/blog1/ChineseGardenSmallVersion2_5.webp' | relative_url }}">
+  <img src="{{ '/assets/images/my-first-blog-lego/ChineseGardenSmallVersion2_5.webp' | relative_url }}">
 </div>
 
 <div style="display:flex;align-items:center;">
-  <img src="{{ '/assets/images/blog1/ChineseGardenSmallVersion2_8.webp' | relative_url }}">
+  <img src="{{ '/assets/images/my-first-blog-lego/ChineseGardenSmallVersion2_8.webp' | relative_url }}">
 </div>
