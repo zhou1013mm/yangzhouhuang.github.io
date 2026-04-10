@@ -265,6 +265,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-katex # for math rendering
 
 # mimic GitHub Pages with --safe
 whitelist:

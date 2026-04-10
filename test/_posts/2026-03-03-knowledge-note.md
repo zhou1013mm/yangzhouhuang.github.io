@@ -23,10 +23,12 @@ tags:
 
 > https://zhuanlan.zhihu.com/p/660518657
 
-the formula of the method is 
-\[
+the formula of the method is
+
+$$
 \hat\epsilon_{\theta} = \epsilon_{\theta,c} + \omega(\epsilon_{\theta,c}-\epsilon_{\theta})
-\]
+$$
+
 the common seen code of the formula :
 
 ```python
@@ -39,9 +41,9 @@ noise_pred = noise_pred_uncond + guidance_scale * (noise_pred_text - noise_pred_
 
 ## 4. KL loss (Kullback–Leibler divergence / relative entropy)
 
-\[
+$$
 D_{\text{KL}}(P||Q) =\sum_{x\in\mathcal{X}}P(x)(\log P(x) - \log Q(x)) 
-\]
+$$
 
 so this definition is under the assumption that $Q(x)$ is the estimated distribution of $P(x)$, and $x$ is discrete.
 
