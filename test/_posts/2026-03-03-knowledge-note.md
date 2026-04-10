@@ -61,11 +61,11 @@ so this definition is under the assumption that $Q(x)$ is the estimated distribu
 
 this package is usually exercised in tensor manipulation of Deep Learning, the advantages visible in the official tutorials
 
-> https://www.bilibili.com/?spm_id_from=333.788.0.0
+> [bilibili](https://www.bilibili.com/?spm_id_from=333.788.0.0)
 
 and the basic usage effects is shown :
 
-> https://github.com/arogozhnikov/einops/blob/main/docs/1-einops-basics.ipynb
+> [github-einops](https://github.com/arogozhnikov/einops/blob/main/docs/1-einops-basics.ipynb)
 
 the basic usage is to `rearrange` the tensor's dimension sequence and to combine 2 dimensions , example:
 
