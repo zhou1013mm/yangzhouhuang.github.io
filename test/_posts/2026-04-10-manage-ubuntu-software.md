@@ -1,3 +1,17 @@
+---
+title: "Ubuntu Software & This Site Note"
+excerpt: "Ubuntu Soft Management & This Site Note" # This line is the brief content of the post
+header:
+  teaser: ""
+  overlay_image: 
+  og_image: 
+categories:
+  - CS
+tags: 
+  - CS
+  - Audio
+---
+
 ## ubuntu software management
 
 [ubuntu_tutorial](https://ubuntu.com/server/docs/tutorial/managing-software/#installing-deb-packages)
@@ -53,4 +67,6 @@ the linking part was added in the header as
 ```
 in `yangzhouhuang.github.io/_includes/head/custom.html`
 
+## themes and templates of static web , noted
+> [UX & Bootstrap](https://themes.3rdwavemedia.com/)
 
