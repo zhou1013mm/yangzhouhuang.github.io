@@ -198,3 +198,12 @@ lsusb | grep -i audio
 
 
 
+ # Related Problem solve: Line-in 3.5mm headphone no response 
+
+#### solution : change the pin configuration of the corresponding pin @ the 3.5mm hole
+
+use HDAJackRetask , select codec : mine is Conexant CX11970. edit the pin with title like 'Black Headphone, Left side' , select its usage as 'headphone' in 'advanced override' mode, apply it and reboot your computer (may be stuck, then shut down and boot again)
+
+#### side-effect : online video bad playing
+
+the clock of video & audio parsing dismatch, leading to the consequence of online video playing stuck ,(can play , but ususally buffering / choppy).
