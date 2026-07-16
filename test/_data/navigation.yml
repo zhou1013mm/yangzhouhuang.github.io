@@ -1,13 +1,9 @@
 # main links links
 main:
   - title: "Home"
-    url: /splash-page/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+    url: /home/
+  - title: "PhotoShowcase"
+    url: /photoshowcase/
 
 # sidebar navigation list sample
 sidebar-sample:

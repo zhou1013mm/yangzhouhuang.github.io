@@ -1,0 +1,9 @@
+.social-icons .icon-lego-ideas {
+  display: inline-block;
+  width: 1.25em;
+  height: 1em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask: url('../icons/lego-ideas.svg') no-repeat center / contain;
+  mask: url('../icons/lego-ideas.svg') no-repeat center / contain;
+}

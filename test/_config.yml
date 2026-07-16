@@ -97,7 +97,7 @@ author:
   location         : "Nanjing, China"
   links:
     - label: "Bilibili"
-      icon: "fas fa-fw fa-bilibili" # to be editted in the css file
+      icon: "fab fa-fw fa-bilibili" # to be editted in the css file
       url: "https://space.bilibili.com/518629111?spm_id_from=333.1007.0.0"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -106,7 +106,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/yangzhou.huang"
     - label: "Lego Ideas"
-      icon: "fab fa-fw fa-lego-ideas" # to be editted in the css file
+      icon: "icon-lego-ideas fa-fw"
       url: "https://beta.ideas.lego.com/profile/04e9b488-dc57-4eee-925a-a92b4a9ee86d"
 
 
@@ -120,7 +120,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/yangzhou.huang"
     - label: "Lego Ideas"
-      icon: "fab fa-fw fa-lego-ideas" # to be editted in the css file
+      icon: "icon-lego-ideas fa-fw"
       url: "https://beta.ideas.lego.com/profile/04e9b488-dc57-4eee-925a-a92b4a9ee86d"
   since: "2026"
 
@@ -254,22 +254,66 @@ compress_html:
 
 # Collections
 collections:
-  recipes:
+  blog:
     output: true
-    permalink: /:collection/:path/
-  pets:
+    permalink: /blog/:path/
+  game:
     output: true
-    permalink: /:collection/:path/
-  portfolio:
+    permalink: /game/:path/
+  lego:
     output: true
-    permalink: /:collection/:path/
+    permalink: /lego/:path/
 
 
 # Defaults
 defaults:
+  # _blog
+  - scope:
+      path: "_blog"
+      type: blog
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+    # _game/comment
+  - scope:
+      path: "_game/comment"
+      type: game
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  # _game
+  - scope:
+      path: "_game"
+      type: game
+    values:
+      layout: single
+      classes: wide
+      author_profile: false # no profile for total display (played & showcase)
+      read_time: true
+      share: true
+      related: true
+  # _lego
+  - scope:
+      path: "_lego"
+      type: lego
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -285,27 +329,4 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _pets
-  - scope:
-      path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: true
-      share: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
+
