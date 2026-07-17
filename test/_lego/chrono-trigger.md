@@ -1,6 +1,6 @@
 ---
-title: "LEGO MOC: Chinese Garden"
-excerpt: "display and introduce my new LEGO MOC Chinese Garden published on LEGO IDEAS"
+title: "LEGO MOC: Chrono Trigger"
+excerpt: "display and introduce my new LEGO MOC Chrono Trigger Robo published on LEGO IDEAS"
 header:
   teaser: "/assets/images/lego/chrono-trigger/Robo_whole_v8_n.webp"
   overlay_image: /assets/images/lego/chrono-trigger/Robo_whole_v8_n.webp

@@ -1,5 +1,5 @@
 ---
-title: "About CRPGs"
+title: "CRPGs"
 excerpt: "comment and comparison among CRPG(computer-RPG)" # This line is the brief content of the post
 header:
   teaser: "/assets/images/game/played/2024/steam/1.webp"

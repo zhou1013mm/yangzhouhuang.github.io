@@ -1,5 +1,5 @@
 ---
-title: "About JRPGs"
+title: "JRPGs"
 excerpt: "comment and comparison among JRPG(japnaees-RPG)" # This line is the brief content of the post
 header:
   teaser: "/assets/images/game/played/2024/steam/1.webp"

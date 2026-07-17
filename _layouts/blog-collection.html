@@ -1,0 +1,20 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_blog | default: "Recent blog" }}</h2>
+
+{% if paginator %}
+  {% assign blog = paginator.blog %}
+{% else %}
+  {% assign blog = site.blog %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html entries=blog type=entries_layout %}
+</div>
+
+{% include paginator.html %}

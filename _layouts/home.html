@@ -4,17 +4,43 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Blogs" }}</h2>
 
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+  {% assign blog = paginator.blog %}
 {% else %}
-  {% assign posts = site.posts %}
+  {% assign blog = site.blog %}
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html entries=posts type=entries_layout %}
+  {% include documents-collection.html entries=blog type=entries_layout %}
+</div>
+
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_lego | default: "Recent LEGO" }}</h2>
+
+{% if paginator %}
+  {% assign lego = paginator.lego %}
+{% else %}
+  {% assign lego = site.lego %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html entries=lego type=entries_layout %}
+</div>
+
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_game | default: "Recent Game" }}</h2>
+
+{% if paginator %}
+  {% assign game = paginator.game %}
+{% else %}
+  {% assign game = site.game %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html entries=game type=entries_layout %}
 </div>
 
 {% include paginator.html %}

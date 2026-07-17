@@ -1,15 +1,9 @@
 ---
-title: Home Page
-layout: collections
-permalink: /home/
-collections:
-  - blog
-  - lego
-  - game
+title: Blog
+layout: archive
 entries_layout: grid
-sort_by: date
-sort_order: reverse
 classes: wide
+author_profile: true
 research:
   - image_path: assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_9.webp
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
@@ -36,7 +30,7 @@ lego:
     alt: "placeholder image 2"
     title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    url: "/lego-collection/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_11.webp
@@ -52,7 +46,7 @@ game:
     alt: "placeholder image 2"
     title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    url: "/game-collection/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/images/game/played/2026/steam/1.webp
@@ -68,7 +62,7 @@ blog:
     alt: "placeholder image 2"
     title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    url: "/blog-collection/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/images/game/played/2026/steam/1.webp
@@ -76,13 +70,13 @@ blog:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
-Sample document listing for the collection `_blog` , `_lego` , `_game` .
-
 {% include feature_row id="research" %}
 
+## LEGO Design
 {% include feature_row id="lego" %}
 
+## Game Comment
 {% include feature_row id="game" %}
 
+## Blog
 {% include feature_row id="blog" %}
-
