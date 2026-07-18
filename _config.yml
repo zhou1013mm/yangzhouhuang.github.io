@@ -141,24 +141,18 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "Bilibili"
+      icon: "fab fa-fw fa-bilibili" # to be editted in the css file
+      url: "https://space.bilibili.com/518629111?spm_id_from=333.1007.0.0"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/zhou1013mm"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/yangzhou.huang"
+    - label: "Lego Ideas"
+      icon: "icon-lego-ideas fa-fw"
+      url: "https://beta.ideas.lego.com/profile/04e9b488-dc57-4eee-925a-a92b4a9ee86d"
   since: "2013"
 
 

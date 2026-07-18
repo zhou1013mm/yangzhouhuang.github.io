@@ -234,6 +234,21 @@ $text-alignments: left, right, start, end, center, justify;
       color: $color;
     }
   }
+
+  /* self added part : color customization*/
+  .fa-github {
+    color:#000000;
+  }
+  .fa-bilibili {
+    color:#00A1D6;
+  }
+  .fa-instagram {
+    color:#E1306C;
+  }
+  .icon-lego-ideas {
+    color:#000000;
+  }
+  /* ------------------------------------ */
 }
 
 /*

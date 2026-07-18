@@ -48,6 +48,7 @@ comments:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 atom_feed:
+  hide                   : true 
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
@@ -93,9 +94,12 @@ analytics:
 author:
   name             : "Yangzhou Huang"
   avatar           : "/assets/images/photoshowcase/pikachu.webp"
-  bio              : "Currently, I am an undergraduate student at Nanjing University, majoring in Physical Acoustics. I'm doing research on Embodied Intelligence at [MCG group](https://mcg.nju.edu.cn/index.html)."
+  bio              : "Undergrad at Nanjing University, majoring in Physical Acoustics. Interested in embodied intelligence and software. Also play games, design LEGO sets in free time."
   location         : "Nanjing, China"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:huangyangzhou214@gmail.com"
     - label: "Bilibili"
       icon: "fab fa-fw fa-bilibili" # to be editted in the css file
       url: "https://space.bilibili.com/518629111?spm_id_from=333.1007.0.0"
@@ -113,6 +117,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Bilibili"
+      icon: "fab fa-fw fa-bilibili" # to be editted in the css file
+      url: "https://space.bilibili.com/518629111?spm_id_from=333.1007.0.0"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/zhou1013mm"
