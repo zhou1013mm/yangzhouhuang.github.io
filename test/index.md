@@ -4,79 +4,146 @@ layout: archive
 entries_layout: grid
 classes: wide
 author_profile: true
-research:
-  - image_path: assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_9.webp
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_10.webp
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_11.webp
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-lego:
-  - image_path: assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_9.webp
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_10.webp
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/lego-collection/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_11.webp
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-game:
-  - image_path: assets/images/game/played/2024/steam/1.webp
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: assets/images/game/played/2025/steam/1.webp
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/game-collection/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: assets/images/game/played/2026/steam/1.webp
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-blog:
-  - image_path: assets/images/game/played/2024/steam/1.webp
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: assets/images/game/played/2025/steam/1.webp
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "/blog-collection/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: assets/images/game/played/2026/steam/1.webp
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
-{% include feature_row id="research" %}
-
 ## LEGO Design
-{% include feature_row id="lego" %}
+<div class="feature__wrapper">
+  {% assign lego_home_items = site.lego | sort: "date" | reverse %}
+  {% for item in lego_home_items limit:3 %}
+    {% assign teaser = item.header.teaser | default: item.image_path | default: site.teaser %}
+    <div class="feature__item">
+      <div class="archive__item">
+        {% if teaser %}
+          <div class="archive__item-teaser">
+            <img src="{{ teaser | relative_url }}" alt="{{ item.title | default: 'teaser image' }}">
+          </div>
+        {% endif %}
+        <div class="archive__item-body">
+          <h2 class="archive__item-title">
+            {% if item.url %}
+              <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>
+            {% else %}
+              {{ item.title }}
+            {% endif %}
+          </h2>
+          {% if item.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ item.excerpt | markdownify }}
+            </div>
+          {% endif %}
+          {% if forloop.index == 2 %}
+            <p><a href="{{ '/lego-collection/' | relative_url }}" class="btn btn--primary">Read More</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
 
 ## Game Comment
-{% include feature_row id="game" %}
+<div class="feature__wrapper">
+  {% assign game_played = site.game | where: "slug", "played" | first %}
+  {% assign game_photoshowcase = site.game | where: "slug", "photoshowcase" | first %}
+
+  {% assign game_pinned_items = "" | split: "" %}
+  {% if game_played %}
+    {% assign game_pinned_items = game_pinned_items | push: game_played %}
+  {% endif %}
+  {% if game_photoshowcase %}
+    {% assign game_pinned_items = game_pinned_items | push: game_photoshowcase %}
+  {% endif %}
+
+  {% for item in game_pinned_items %}
+    {% assign teaser = item.header.teaser | default: item.image_path | default: site.teaser %}
+    <div class="feature__item">
+      <div class="archive__item">
+        {% if teaser %}
+          <div class="archive__item-teaser">
+            <img src="{{ teaser | relative_url }}" alt="{{ item.title | default: 'teaser image' }}">
+          </div>
+        {% endif %}
+        <div class="archive__item-body">
+          <h2 class="archive__item-title">
+            {% if item.url %}
+              <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>
+            {% else %}
+              {{ item.title }}
+            {% endif %}
+          </h2>
+          {% if item.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ item.excerpt | markdownify }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="feature__wrapper">
+  {% assign game_comments = site.game | where_exp: "item", "item.path contains '_game/comment/'" | sort: "date" | reverse %}
+  {% for item in game_comments limit:3 %}
+    {% assign teaser = item.header.teaser | default: item.image_path | default: site.teaser %}
+    <div class="feature__item">
+      <div class="archive__item">
+        {% if teaser %}
+          <div class="archive__item-teaser">
+            <img src="{{ teaser | relative_url }}" alt="{{ item.title | default: 'teaser image' }}">
+          </div>
+        {% endif %}
+        <div class="archive__item-body">
+          <h2 class="archive__item-title">
+            {% if item.url %}
+              <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>
+            {% else %}
+              {{ item.title }}
+            {% endif %}
+          </h2>
+          {% if item.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ item.excerpt | markdownify }}
+            </div>
+          {% endif %}
+          {% if forloop.index == 2 %}
+            <p><a href="{{ '/game-collection/' | relative_url }}" class="btn btn--primary">Read More</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
 
 ## Blog
-{% include feature_row id="blog" %}
+<div class="feature__wrapper">
+  {% assign blog_home_items = site.blog | sort: "date" | reverse %}
+  {% for item in blog_home_items limit:3 %}
+    {% assign teaser = item.header.teaser | default: item.image_path | default: site.teaser %}
+    <div class="feature__item">
+      <div class="archive__item">
+        {% if teaser %}
+          <div class="archive__item-teaser">
+            <img src="{{ teaser | relative_url }}" alt="{{ item.title | default: 'teaser image' }}">
+          </div>
+        {% endif %}
+        <div class="archive__item-body">
+          <h2 class="archive__item-title">
+            {% if item.url %}
+              <a href="{{ item.url | relative_url }}" rel="permalink">{{ item.title }}</a>
+            {% else %}
+              {{ item.title }}
+            {% endif %}
+          </h2>
+          {% if item.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ item.excerpt | markdownify }}
+            </div>
+          {% endif %}
+          {% if forloop.index == 2 %}
+            <p><a href="{{ '/blog-collection/' | relative_url }}" class="btn btn--primary">Read More</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

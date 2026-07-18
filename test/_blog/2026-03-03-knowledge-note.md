@@ -1,5 +1,6 @@
 ---
 title: "Knowledge Note Around Generative Models"
+date: 2026-03-01
 excerpt: "Knowledge understanding and explanation on generative AI" # This line is the brief content of the post
 header:
   teaser: ""

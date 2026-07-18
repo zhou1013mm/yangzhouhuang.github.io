@@ -1,3 +1,16 @@
+---
+title: "Write Something"
+date: 2026-06-04
+excerpt: "Somethign I want to write about in recent days" # This line is the brief content of the post
+header:
+  teaser: ""
+  overlay_image: 
+  og_image: 
+categories:
+  - Notes
+tags: 
+---
+
 # topics to write
 
 ## review : games & reviews

@@ -1,5 +1,6 @@
 ---
 title: "Ubuntu Software & This Site Note"
+date: 2026-04-10
 excerpt: "Ubuntu Soft Management & This Site Note" # This line is the brief content of the post
 header:
   teaser: ""

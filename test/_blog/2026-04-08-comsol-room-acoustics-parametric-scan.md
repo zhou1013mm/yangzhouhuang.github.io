@@ -1,5 +1,6 @@
 ---
 title: "COMSOL Room Acoustics Basics"
+date: 2026-04-08
 excerpt: "Basic Comsol Usage on Room Acoustics" # This line is the brief content of the post
 header:
   teaser: ""

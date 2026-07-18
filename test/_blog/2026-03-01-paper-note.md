@@ -1,5 +1,6 @@
 ---
 title: "Paper Note on robot-related physical AI"
+date: 2026-03-01
 excerpt: "Thoughts after reading papers about physical AI" # This line is the brief content of the post
 header:
   teaser: ""

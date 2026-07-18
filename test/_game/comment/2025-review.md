@@ -1,5 +1,6 @@
 ---
 title: "2025 Game Review"
+date: 2026-2-13
 excerpt: "general review of the games I played in 2025" # This line is the brief content of the post
 header:
   teaser: "/assets/images/game/played/2025/steam/1.webp"

@@ -13,8 +13,31 @@ layout: archive
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
+
+{% assign game_played = game | where: "slug", "played" | first %}
+{% assign game_photoshowcase = game | where: "slug", "photoshowcase" | first %}
+
+{% assign game_pinned_items = "" | split: "" %}
+{% if game_played %}
+  {% assign game_pinned_items = game_pinned_items | push: game_played %}
+{% endif %}
+{% if game_photoshowcase %}
+  {% assign game_pinned_items = game_pinned_items | push: game_photoshowcase %}
+{% endif %}
+
+{% if game_pinned_items.size > 0 %}
+<h3 class="archive__subtitle">Special Game Pages</h3>
 <div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html entries=game type=entries_layout %}
+  {%- for post in game_pinned_items -%}
+    {% include archive-single.html type=entries_layout %}
+  {%- endfor -%}
+</div>
+{% endif %}
+
+<h3 class="archive__subtitle" style="clear: both;">Game Comments</h3>
+{% assign game_comments = game | where_exp: "item", "item.path contains '_game/comment/'" | sort: "date" | reverse %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html entries=game_comments type=entries_layout %}
 </div>
 
 {% include paginator.html %}

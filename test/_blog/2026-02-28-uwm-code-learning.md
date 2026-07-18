@@ -1,5 +1,6 @@
 ---
 title: "Unified World Model Code Learning"
+date: 2026-02-28
 excerpt: "Learn the architecture of UWM from code" # This line is the brief content of the post
 header:
   teaser: ""

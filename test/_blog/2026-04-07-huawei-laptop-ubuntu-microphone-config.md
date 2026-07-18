@@ -1,5 +1,6 @@
 ---
 title: "How I Fixed My Huawei Laptop's Ubuntu Microphone Unavailability"
+date: 2026-04-07
 excerpt: "Ubuntu Microphone Setup on Huawei Laptop" # This line is the brief content of the post
 header:
   teaser: ""

@@ -1,10 +1,11 @@
 ---
 title: "LEGO MOC: Chinese Garden"
+date: 2025-12-23
 excerpt: "display and introduce my new LEGO MOC Chinese Garden published on LEGO IDEAS"
 header:
-  teaser: "/assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_5.webp"
-  overlay_image: /assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_20.webp
-  og_image: /assets/images/lego/chinese-garden/ChineseGardenSmallVersion2_20.webp
+  teaser: "/assets/images/lego/chinese-garden/8.webp"
+  overlay_image: /assets/images/lego/chinese-garden/8.webp
+  og_image: /assets/images/lego/chinese-garden/8.webp
 categories:
   - LEGO
 tags: 
@@ -22,9 +23,9 @@ The water pavillion in the set is nearly copied from Zhuozheng Yuan, in which it
 After the job, I still have something to try in this topic. Rockery ([假山](https://zh.wikipedia.org/wiki/%E5%81%87%E5%B1%B1)) is a core element in Chinese Garden designing, but I think I didn't make it outstanding in this set. Maybe I can do better in the future.
 
 <div style="display:flex;align-items:center;">
-  <img src="{{ '/assets/images/my-first-blog-lego/ChineseGardenSmallVersion2_5.webp' | relative_url }}">
+  <img src="{{ '/assets/images/my-first-blog-lego/5.webp' | relative_url }}">
 </div>
 
 <div style="display:flex;align-items:center;">
-  <img src="{{ '/assets/images/my-first-blog-lego/ChineseGardenSmallVersion2_8.webp' | relative_url }}">
+  <img src="{{ '/assets/images/my-first-blog-lego/8.webp' | relative_url }}">
 </div>

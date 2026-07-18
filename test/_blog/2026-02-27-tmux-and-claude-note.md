@@ -1,5 +1,6 @@
 ---
 title: "Tmux and Claude Note"
+date: 2026-02-27
 excerpt: "Easy Usage on Tmux & Claude" # This line is the brief content of the post
 header:
   teaser: ""

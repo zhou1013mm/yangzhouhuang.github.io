@@ -257,12 +257,18 @@ collections:
   blog:
     output: true
     permalink: /blog/:path/
+    sort_by: date
+    sort_order: reverse
   game:
     output: true
     permalink: /game/:path/
+    sort_by: date
+    sort_order: reverse
   lego:
     output: true
     permalink: /lego/:path/
+    sort_by: date
+    sort_order: reverse
 
 
 # Defaults
