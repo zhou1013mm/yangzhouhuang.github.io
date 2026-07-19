@@ -2,9 +2,9 @@
 title: "Gmae PhotoShowcase"
 excerpt: "photoshowcase for games in case I want to put some screenshoots together" # This line is the brief content of the post
 header:
-  teaser: "/assets/images/game/played/2024/steam/1.webp"
-  overlay_image: /assets/images/game/played/2024/steam/1.webp
-  og_image: /assets/images/game/played/2024/steam/1.webp
+  teaser: "/assets/images/game/photoshowcase/kentucky-route-zero/5.webp"
+  overlay_image: "/assets/images/game/photoshowcase/kentucky-route-zero/2.webp"
+  og_image: "/assets/images/game/photoshowcase/kentucky-route-zero/2.webp"
 categories:
   - Game
 tags: 
@@ -19,126 +19,86 @@ I used to play digital games on web page and mobile phones. Most of my early tim
 
 So here are some games that impressed me a lot. This means maybe they're not the most highly rated I would give in terms of comprehensive rating, but unique for me in some way. For example, [Legend of Zelda: Breath of the Wild](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild), [Grand Theft Auto IV](https://en.wikipedia.org/wiki/Grand_Theft_Auto_IV), and [Portal](https://en.wikipedia.org/wiki/Portal_(video_game)) are fascinating games as well but they're not that impressive, maybe for the themes or not strong in story (but fun to play still). 
 
-### Chrono Trigger
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/CT1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/CT4.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
-
 ### Disco Elysium
 
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/DE1.webp' | relative_url }}" style="width:40%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/DE2.webp' | relative_url }}" style="width:60%;height:auto;">
-</div>
-
-
-Blank line
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/DE4.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/DE6.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
+{% for i in (1..2) %}
+  {% assign start_idx = i | times: 3 | minus: 2 %}
+  {% assign end_idx = i | times: 3 %}
+  <div style="display:flex;gap:5px;align-items:center;margin-bottom:5px;">
+    {% for j in (start_idx..end_idx) %}
+      <img src="{{ '/assets/images/game/photoshowcase/disco-elysium/' | append: j | append: '.webp' | relative_url }}" style="width:32%;height:auto;">
+    {% endfor %}
+  </div>
+{% endfor %}
 
 ### Kentucky Route Zero
 
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/KR5.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/KR2.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/KR1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/KR3.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
+{% for i in (1..2) %}
+  {% assign start_idx = i | times: 3 | minus: 2 %}
+  {% assign end_idx = i | times: 3 %}
+  <div style="display:flex;gap:5px;align-items:center;margin-bottom:5px;">
+    {% for j in (start_idx..end_idx) %}
+      <img src="{{ '/assets/images/game/photoshowcase/kentucky-route-zero/' | append: j | append: '.webp' | relative_url }}" style="width:32%;height:auto;">
+    {% endfor %}
+  </div>
+{% endfor %}
 
 ### Witcher III: Wild Hunt
 
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/WIII2.webp' | relative_url }}" style="width:60%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/WIII11.webp' | relative_url }}" style="width:40%;height:auto;">
-</div>
-
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/WIII10.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/WIII13.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
-
-### Fallout 4
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/FIV1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/FIV3.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
+{% for i in (1..5) %}
+  {% assign start_idx = i | times: 3 | minus: 2 %}
+  {% assign end_idx = i | times: 3 %}
+  <div style="display:flex;gap:5px;align-items:center;margin-bottom:5px;">
+    {% for j in (start_idx..end_idx) %}
+      <img src="{{ '/assets/images/game/photoshowcase/witcher-3/' | append: j | append: '.webp' | relative_url }}" style="width:32%;height:auto;">
+    {% endfor %}
+  </div>
+{% endfor %}
 
 ### Sekiro: Shadow Die Twice
 
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/SK1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/SK2.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
+{% for i in (1..1) %}
+  {% assign start_idx = i | times: 3 | minus: 2 %}
+  {% assign end_idx = i | times: 3 %}
+  <div style="display:flex;gap:5px;align-items:center;margin-bottom:5px;">
+    {% for j in (start_idx..end_idx) %}
+      <img src="{{ '/assets/images/game/photoshowcase/sekiro/' | append: j | append: '.webp' | relative_url }}" style="width:32%;height:auto;">
+    {% endfor %}
+  </div>
+{% endfor %}
 
+### Dark Souls
 
-### Dark Soul
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/DS3.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/DS10.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
-
-Blank line
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/DS6.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/DS2.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
-
-### Silent Hill(1999)
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/SHI3.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/SHI4.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
-
-### Dragon Quest XIS
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/DQXIS1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/DQXIS2.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
-
-### Machinarium
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/MA1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/MA3.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
-
-### Fire Emblem: Binding Blade
-
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/FEB1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/FEB3.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
-
+{% for i in (1..3) %}
+  {% assign start_idx = i | times: 3 | minus: 2 %}
+  {% assign end_idx = i | times: 3 %}
+  <div style="display:flex;gap:5px;align-items:center;margin-bottom:5px;">
+    {% for j in (start_idx..end_idx) %}
+      <img src="{{ '/assets/images/game/photoshowcase/dark-souls/' | append: j | append: '.webp' | relative_url }}" style="width:32%;height:auto;">
+    {% endfor %}
+  </div>
+{% endfor %}
 
 ### Sable
 
-<div style="display:flex;gap:10px;align-items:center;">
-  <img src="{{ '/assets/images/game/photoshowcase/SB1.webp' | relative_url }}" style="width:50%;height:auto;">
-  <img src="{{ '/assets/images/game/photoshowcase/SB4.webp' | relative_url }}" style="width:50%;height:auto;">
-</div>
----
+{% for i in (1..5) %}
+  {% assign start_idx = i | times: 3 | minus: 2 %}
+  {% assign end_idx = i | times: 3 %}
+  <div style="display:flex;gap:5px;align-items:center;margin-bottom:5px;">
+    {% for j in (start_idx..end_idx) %}
+      <img src="{{ '/assets/images/game/photoshowcase/sable/' | append: j | append: '.webp' | relative_url }}" style="width:32%;height:auto;">
+    {% endfor %}
+  </div>
+{% endfor %}
+
+### Machinarium
+
+{% for i in (1..3) %}
+  {% assign start_idx = i | times: 3 | minus: 2 %}
+  {% assign end_idx = i | times: 3 %}
+  <div style="display:flex;gap:5px;align-items:center;margin-bottom:5px;">
+    {% for j in (start_idx..end_idx) %}
+      <img src="{{ '/assets/images/game/photoshowcase/machinarium/' | append: j | append: '.webp' | relative_url }}" style="width:32%;height:auto;">
+    {% endfor %}
+  </div>
+{% endfor %}
